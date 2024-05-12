@@ -1,103 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daniel's Personal Website</title>
 <style>
-div {
-  background-color: #FFF4A3;
-}
-.box1 {
-  background-color: tomato;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-}
-.box2 {
-  background-color: blue;
-  color: white;
-  border: 2px solid black;
-  margin: 20px;
-  padding: 20px;
-}
-.footer {
-  background-color: darkblue;
-  color: white;
-}
+  body {
+    background-color: powderblue;
+    font-family: 'Verdana', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  header a, footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+  }
+  header a:hover, footer a:hover {
+    text-decoration: underline;
+  }
+  .container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+  }
+  .box {
+    background-color: #FFF4A3;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    text-align: left;
+  }
+  .box1 {
+    background-color: tomato;
+  }
+  .box2 {
+    background-color: blue;
+  }
+  .link-button {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  .link-button:hover {
+    opacity: 0.9;
+  }
+  .footer {
+    background-color: darkblue;
+  }
+  nav {
+    background-color: #ffa366;
+    padding: 10px 0;
+    margin-bottom: 20px;
+  }
+  nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
 </style>
+</head>
+<body>
 
-<body style="background-color:powderblue;font-family:verdana;text-align:center;">
+<header>
+  <div class="container">
+    <h1>Welcome to Daniel's Website!</h1>
+  </div>
+</header>
 
-       <nav style="background-color:#ffa366;font-family:arial;text-align:center;">
-        <a href="./index">Home</a>    |
-        <a href="./about">About</a>    | 
-        <a href="./page2"> Page No.2 </a>    |
-        <a href="./page3">Page3</a>    |
-        <a href="./gallery">Gallery</a>    |
-        <a href="./contact">Contact</a>  |
-        <a href="./home2">Alternative Home</a>  
-    </nav>
-  
-<h1 style="font-size:50px;">Welcome to my website!</h1>
-<p style="background-color:#FF69B4;">Daniel's Website</p>
-
-<div>
-  <h3>London</h3>
-  <p>London is the capital city of England.</p>
-</div>
+<nav class="container">
+  <a href="./index">Home</a> |
+  <a href="./about">About</a> |
+  <a href="./page2">Page No.2</a> |
+  <a href="./page3">Page3</a> |
+  <a href="./gallery">Gallery</a> |
+  <a href="./contact">Contact</a> |
+  <a href="./home2">Alternative Home</a>
+</nav>
 
 <a href="./about" class="link-button" role="button">
-<div class="box2">
-<h2>About</h2>
-<p>Goes to the About page.</p>
-</div> 
+<div class="container">
+  <div class="box box2">
+    <h2>About</h2>
+    <p>Goes to the About page.</p>
+  </div>
 </a>
 
 <a href="./page2" class="link-button" role="button">
-<div class="box1">
-<h2>Page Number 2</h2>
-<p>Goes to page number two.</p>
-</div> 
+  <div class="box box1">
+    <h2>Page Number 2</h2>
+    <p>Goes to page number two.</p>
+  </div>
 </a>
 
-
 <a href="./page3" class="link-button" role="button">
-<div class="box2">
-<h2>Page 3</h2>
-<p>Paris is the capital of France.</p>
-</div>
+  <div class="box box2">
+    <h2>Page 3</h2>
+    <p>Paris is the capital of France.</p>
+  </div>
 </a>
 
 <a href="./gallery" class="link-button" role="button">
-<div class="box1">
-<h2>Gallery</h2>
-<p>Tokyo is the capital of Japan.</p>
-</div>
+  <div class="box box1">
+    <h2>Gallery</h2>
+    <p>Tokyo is the capital of Japan.</p>
+  </div>
 </a>
 
 <a href="./contact" class="link-button" role="button">
-<div class="box2">
-<h2>Contact</h2>
-<p>Goes to the Contact page.</p>
+  <div class="box box2">
+    <h2>Contact</h2>
+    <p>Goes to the Contact page.</p>
+  </div>
 </div>
 </a>
 
+
 <footer>
-<div class="footer">
-  <p>Contact email:<br>
-  <a href="mailto:hege@example.com">hege@example.com</a></p>
-  <br>
-  <nav style="background-color:black;font-family:arial;text-align:center;">
-        <a style="color: white" href="./index">Home</a>    |
-        <a style="color: white" href="./about">About</a>    |
-        <a style="color: white" href="./page2"> Page No.2 </a>    |
-        <a style="color: white" href="./page3">Page3</a>    |
-        <a style="color: white" href="./gallery">Gallery</a>    |
-        <a style="color: white" href="./contact">Contact</a>  |
-        <a style="color: white" href="./home2">Alternative Home</a>
+  <div class="footer">
+    <p>Contact email: <a href="mailto:hege@example.com">hege@example.com</a></p>
+    <nav>
+      <a href="./index">Home</a> |
+      <a href="./about">About</a> |
+      <a href="./page2">Page No.2</a> |
+      <a href="./page3">Page3</a> |
+      <a href="./gallery">Gallery</a> |
+      <a href="./contact">Contact</a> |
+      <a href="./home2">Alternative Home</a>
     </nav>
-</div>
-
+  </div>
 </footer>
-
 
 </body>
 </html>
