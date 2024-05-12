@@ -1,28 +1,101 @@
 <!DOCTYPE html>
 <html>
-   <head>
-      <title>My Cool Website</title>
-   </head>
-   <body style="background-color:powderblue;font-family:verdana;;">
-          <nav style="background-color:#ffa366;font-family:arial;text-align:center;">
+<style>
+div {
+  background-color: #FFF4A3;
+}
+.box1 {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.box2 {
+  background-color: blue;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.footer {
+  background-color: darkblue;
+  color: white;
+}
+</style>
+
+<body style="background-color:powderblue;font-family:verdana;text-align:center;">
+
+       <nav style="background-color:#ffa366;font-family:arial;text-align:center;">
         <a href="./index">Home</a>    |
-        <a href="./about">About</a>    |
+        <a href="./about">About</a>    | 
         <a href="./page2"> Page No.2 </a>    |
         <a href="./page3">Page3</a>    |
         <a href="./gallery">Gallery</a>    |
         <a href="./contact">Contact</a>      
     </nav>
-      
-      <h1 style="text-align:center">Welcome to my website! ⭐️</h1>
-      <p>How was your day? 🎉</p>
-      <a href="./about">Read the about page</a>
-      <br>
-      <a href="./page2">Page No.2</a>
-      <br><br>
-      <a href="./page3">Read the about my 3rd page using HTLM code from W3school</a>
-      <br>
-      <a href="./gallery">Gallery</a>
-      <br>
-      <a href="./contact">Contact</a>
-   </body>
+  
+<h1 style="font-size:50px;">Welcome to my website!</h1>
+<p style="background-color:#FF69B4;">Daniel's Website</p>
+
+<div>
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<a href="./about" class="link-button" role="button">
+<div class="box2">
+<h2>About</h2>
+<p>Goes to the About page.</p>
+</div> 
+</a>
+
+<a href="./page2" class="link-button" role="button">
+<div class="box1">
+<h2>Page Number 2</h2>
+<p>Goes to page number two.</p>
+</div> 
+</a>
+
+
+<a href="./page3" class="link-button" role="button">
+<div class="box2">
+<h2>Page 3</h2>
+<p>Paris is the capital of France.</p>
+</div>
+</a>
+
+<a href="./gallery" class="link-button" role="button">
+<div class="box1">
+<h2>Gallery</h2>
+<p>Tokyo is the capital of Japan.</p>
+</div>
+</a>
+
+<a href="./contact" class="link-button" role="button">
+<div class="box2">
+<h2>Contact</h2>
+<p>Goes to the Contact page.</p>
+</div>
+</a>
+
+<footer>
+<div class="footer">
+  <p>Contact email:<br>
+  <a href="mailto:hege@example.com">hege@example.com</a></p>
+  <br>
+  <nav style="background-color:black;font-family:arial;text-align:center;">
+        <a style="color: white" href="./index">Home</a>    |
+        <a style="color: white" href="./about">About</a>    |
+        <a style="color: white" href="./page2"> Page No.2 </a>    |
+        <a style="color: white" href="./page3">Page3</a>    |
+        <a style="color: white" href="./gallery">Gallery</a>    |
+        <a style="color: white" href="./contact">Contact</a>      
+    </nav>
+</div>
+
+</footer>
+
+
+</body>
 </html>
