@@ -1,19 +1,109 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Page2 - Testing out making more pages</title>
-</head>
-<body>
-    <nav style="background-color:#ffa366;font-family:arial;text-align:center;">
-        <a href="./index">Home</a>    |
-        <a href="./about">About</a>    |
-        <a href="./page2"> Page No.2 </a>    |
-        <a href="./page3">Page3</a>    |
-        <a href="./gallery">Gallery</a>    |
-        <a href="./contact">Contact</a>      
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+div {
+  background-color: #FFF4A3;
+}
+.city {
+  background-color: tomato;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+.town {
+  background-color: blue;
+  color: white;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 20px;
+}
+   header, footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  header a, footer a {
+    color: white;
+    text-decoration: none;
+    padding: 0 15px;
+  }
+  header a:hover, footer a:hover {
+    text-decoration: underline;
+  }
+  .footer {
+    background-color: darkblue;
+  }
+  .container {
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  nav a {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+  }
+  nav a:hover {
+    text-decoration: underline;
+  }
+</style>
+
+<body style="background-color:powderblue;font-family:verdana;text-align:center;">
+
+       <nav class="container"style="background-color:#ffa366;font-family:arial;text-align:center;">
+  <a href="./index">Home</a> |
+  <a href="./about">About</a> |
+  <a href="./page2">Page No.2</a> |
+  <a href="./page3">Page3</a> |
+  <a href="./gallery">Gallery</a> |
+  <a href="./contact">Contact</a> |
+  <a href="./home2">Alternative Home</a>
+</nav>
+  
+<h1 style="font-size:50px;">This is Page Number 2</h1>
+<p style="background-color:#FF69B4;">Centered paragraph.</p>
+
+<div>
+  <h2>London</h2>
+  <p>London is the capital city of England.</p>
+  <p>London has over 13 million inhabitants.</p>
+</div>
+
+<div class="city">
+<h2>Page Number 2</h2>
+<p>Goes to page number two.</p>
+</div> 
+
+<div class="town">
+<h2>Paris</h2>
+<p>Paris is the capital of France.</p>
+</div>
+
+  <a href="./about" class="link-button" role="button">
+<div class="city">
+<h2>About</h2>
+<p>Tokyo is the capital of Japan.</p>
+</div>
+  </a>
+
+<footer>
+  <div class="footer">
+    <p>Contact email: <a href="mailto:hege@example.com">hege@example.com</a></p>
+    <nav>
+      <a href="./index">Home</a> |
+      <a href="./about">About</a> |
+      <a href="./page2">Page No.2</a> |
+      <a href="./page3">Page3</a> |
+      <a href="./gallery">Gallery</a> |
+      <a href="./contact">Contact</a> |
+      <a href="./home2">Alternative Home</a>
     </nav>
-    
-    <h1>Welsome to Page 2!</h1>
-    <p>Thanks for following this tutorial.</p>
+  </div>
+</footer>
+
 </body>
 </html>
