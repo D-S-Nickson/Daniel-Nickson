@@ -3,147 +3,82 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Daniel's Personal Website</title>
-<style>
-  body {
-    background-color: powderblue;
-    font-family: 'Verdana', sans-serif;
-    margin: 0;
-    padding: 0;
-  }
-  header, footer {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    text-align: center;
-  }
-  header a, footer a {
-    color: white;
-    text-decoration: none;
-    padding: 0 15px;
-  }
-  header a:hover, footer a:hover {
-    text-decoration: underline;
-  }
-  .container {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-  }
-  .box {
-    background-color: #FFF4A3;
-    border: 2px solid black;
-    margin: 20px;
-    padding: 20px;
-    text-align: left;
-  }
-  .box1 {
-    background-color: tomato;
-  }
-  .box2 {
-    background-color: blue;
-  }
-  .link-button {
-    display: block;
-    color: white;
-    text-decoration: none;
-    text-align: center;
-    padding: 10px;
-    margin: 10px 0;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  .link-button:hover {
-    opacity: 0.9;
-  }
-  .footer {
-    background-color: darkblue;
-  }
-  nav {
-    background-color: #ffa366;
-    padding: 10px 0;
-    margin-bottom: 20px;
-  }
-  nav a {
-    color: black;
-    text-decoration: none;
-    padding: 0 10px;
-  }
-  nav a:hover {
-    text-decoration: underline;
-  }
-</style>
+
+<link rel="stylesheet" href="mystyle.css">
+	
 </head>
 <body>
 
-<header>
-  <div class="container">
-    <h1>Welcome to Daniel's Website!</h1>
-  </div>
-</header>
+<div class="header">
+  <h1>PAGE No. 3</h1>
+  <p>Page number three</p>
+</div>
 
-<nav class="container">
-  <a href="./index">Home</a> |
-  <a href="./about">About</a> |
-  <a href="./resume">RESUME</a> |
-  <a href="./page3">Page3</a> |
-  <a href="./gallery">Gallery</a> |
-  <a href="./contact">Contact</a> |
+<div class="topnav">
+ <a href="./index" class="current">Home</a>
+  <a href="./about">About</a>
+  <a href="./resume">RESUME</a>
+  <a href="./page3">Page3</a> 
+  <a href="./gallery">Gallery</a> 
+  <a href="./contact">Contact</a> 
   <a href="./home2">Alternative Home</a>
-</nav>
 
-<a href="./index" class="link-button" role="button">
-<div class="container">
-  <div class="box box2">
-    <h2>Home</h2>
-    <p>Goes to the Home page.</p>
-  </div>
-</a>
-  
-<a href="./about" class="link-button" role="button">
-<div class="container">
-  <div class="box box2">
-    <h2>About</h2>
-    <p>Goes to the About page.</p>
-  </div>
-</a>
+ 
+</div>
 
-<a href="./resume" class="link-button" role="button">
-  <div class="box box1">
-    <h2>Page Number 2</h2>
-    <p>Goes to page number two.</p>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Contact info</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>CONTACT</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>DETAILS</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
   </div>
-</a>
-
-<a href="./page3" class="link-button" role="button">
-  <div class="box box2">
-    <h2>Page 3</h2>
-    <p>Paris is the capital of France.</p>
-  </div>
-</a>
-
-<a href="./gallery" class="link-button" role="button">
-  <div class="box box1">
-    <h2>Gallery</h2>
-    <p>Tokyo is the capital of Japan.</p>
-  </div>
-</a>
-
-<a href="./contact" class="link-button" role="button">
-  <div class="box box2">
-    <h2>Contact</h2>
-    <p>Goes to the Contact page.</p>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
   </div>
 </div>
-</a>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
 
 
 <footer>
   <div class="footer">
     <p>Contact email: <a href="mailto:hege@example.com">hege@example.com</a></p>
     <nav>
-      <a href="./index">Home</a> |
+      <a href="./index" class="current">Home</a> |
       <a href="./about">About</a> |
       <a href="./resume">RESUME</a> |
       <a href="./page3">Page3</a> |
