@@ -4,61 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About Daniel</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-  }
-  .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
-    padding: 20px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
-  }
-  header {
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-    text-align: center;
-  }
-  header h1 {
-    margin: 0;
-  }
-  nav {
-    display: flex;
-    justify-content: center;
-    background: #444;
-    padding: 10px 0;
-  }
-  nav a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0 15px;
-  }
-  nav a:hover {
-    background: #555;
-  }
-  .about-section {
-    margin: 20px 0;
-    padding: 20px;
-    background: #e2e2e2;
-    border-left: 4px solid #333;
-  }
-  footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
-    bottom: 0;
-    width: 100%;
-  }
-</style>
+
+<link rel="stylesheet" href="mystyle.css">
+
 </head>
 <body>
 
@@ -66,13 +14,16 @@
   <h1>About Daniel</h1>
 </header>
 
-<nav>
-  <a href="index.html">Home</a>
-  <a href="about.html">About</a>
-  <a href="gallery.html">Gallery</a>
-  <a href="resume.html">RESUME</a>
-  <a href="contact.html">Contact</a>
-</nav>
+<div class="topnav">
+ <a href="./index">Home</a>
+  <a href="./about">About</a>
+  <a href="./resume">RESUME</a>
+  <a href="./page3" class="current">Page3</a> 
+  <a href="./gallery">Gallery</a> 
+  <a href="./contact">Contact</a> 
+  <a href="./home2">Alternative Home</a>
+ 
+</div>
 
 <div class="container">
   <section class="about-section">
@@ -94,7 +45,18 @@
 </div>
 
 <footer>
-  <p>© 2024 Daniel's Personal Website</p>
+  <div class="footer">
+    <p>Contact email: <a href="mailto:hege@example.com">hege@example.com</a></p>
+    <nav>
+      <a href="./index">Home</a> |
+      <a href="./about">About</a> |
+      <a href="./resume">RESUME</a> |
+      <a href="./page3">Page3</a> |
+      <a href="./gallery">Gallery</a> |
+      <a href="./contact">Contact</a> |
+      <a href="./home2">Alternative Home</a>
+    </nav>
+  </div>
 </footer>
 
 </body>
