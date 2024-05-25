@@ -3,80 +3,91 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Name - Home</title>
-<style>
-  body {font-family: Arial, sans-serif; line-height: 1.6; margin: 0; padding: 0;}
-  .container {width: 80%; margin: auto; overflow: hidden;}
-  header {background: #50b3a2; color: white; padding-top: 30px; min-height: 70px; border-bottom: #e8491d 3px solid;}
-  header a {color: #ffffff; text-decoration: none; text-transform: uppercase; font-size: 16px;}
-  header ul {padding: 0; list-style: none;}
-  header li {float: left; display: inline; padding: 0 20px 0 20px;}
-  header #branding {float: left;}
-  header #branding h1 {margin: 0;}
-  header nav {float: right; margin-top: 10px;}
-  header .highlight, header .current a {color: #e8491d; font-weight: bold;}
-  header a:hover {color: #ffffff; font-weight: bold;}
-  section#showcase {color: white; background: url('showcase.jpg') no-repeat 0 -400px; text-align: center; padding: 100px 0;}
-  section#showcase h1 {font-size: 55px; line-height: 1.2;}
-  section#about, section#gallery, section#blog {margin: 50px 0;}
-  footer {background: #50b3a2; color: white; text-align: center; padding: 30px 0;}
-</style>
+
+<link rel="stylesheet" href="mystyle.css">
+	
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div id="branding">
-        <h1><span class="highlight">Your</span> Name</h1>
-      </div>
-      <nav>
-        <ul>
-          <li class="current"><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="cv.html">CV</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
 
-  <section id="showcase">
-    <div class="container">
-      <h1>Welcome to My Personal Website</h1>
-      <p>Discover my projects, photography, and professional journey.</p>
-    </div>
-  </section>
+<div class="header">
+  <h1>Alternative Home</h1>
+  <p>Alternative Home, also known as home2</p>
+</div>
 
-  <section id="about">
-    <div class="container">
+<div class="topnav">
+ <a href="./index">Home</a>
+  <a href="./about">About</a>
+  <a href="./resume">RESUME</a>
+  <a href="./page3">Page3</a> 
+  <a href="./gallery">Gallery</a> 
+  <a href="./contact">Contact</a> 
+  <a href="./home2" class="current">Alternative Home</a>
+
+ 
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Contact info</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>CONTACT</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>DETAILS</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
       <h2>About Me</h2>
-      <p>Here's a little about me...</p>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
     </div>
-  </section>
-
-  <section id="gallery">
-    <div class="container">
-      <h2>Gallery</h2>
-      <p>Check out my latest photos...</p>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
     </div>
-  </section>
-
-  <section id="blog">
-    <div class="container">
-      <h2>Blog</h2>
-      <p>Read about my latest adventures in work and life...</p>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
     </div>
-  </section>
+  </div>
+</div>
 
-  <section id="cv">
-    <div class="container">
-      <h2>My CV</h2>
-      <p>Learn more about my professional experience and skills...</p>
-    </div>
-  </section>
+<div class="footer">
+  <h2>Footer</h2>
+</div>
 
-  <footer>
-    <p>Your Name © 2024</p>
-  </footer>
+
+<footer>
+  <div class="footer">
+    <p>Contact email: <a href="mailto:hege@example.com">hege@example.com</a></p>
+    <nav>
+      <a href="./index">Home</a> |
+      <a href="./about">About</a> |
+      <a href="./resume">RESUME</a> |
+      <a href="./page3">Page3</a> |
+      <a href="./gallery">Gallery</a> |
+      <a href="./contact">Contact</a> |
+      <a href="./home2">Alternative Home</a>
+    </nav>
+  </div>
+</footer>
+
 </body>
 </html>
