@@ -3,53 +3,83 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>About Daniel</title>
 
 <link rel="stylesheet" href="mystyle.css">
-
+	
 </head>
 <body>
 
-<header>
-  <h1>About Daniel</h1>
-</header>
+<div class="header">
+  <h1>About Me</h1>
+  <p>About me page</p>
+</div>
 
 <div class="topnav">
  <a href="./index">Home</a>
-  <a href="./about">About</a>
+  <a href="./about" class="current">About</a>
   <a href="./resume">RESUME</a>
-  <a href="./page3" class="current">Page3</a> 
+  <a href="./page3">Page3</a> 
   <a href="./gallery">Gallery</a> 
   <a href="./contact">Contact</a> 
   <a href="./home2">Alternative Home</a>
+
  
 </div>
 
-<div class="container">
-  <section class="about-section">
-    <h2>Welcome to My About Page</h2>
-    <p>
-      Hello! I'm Daniel, a professional with a passion for web development and design.
-      I have a background in computer science and have worked on numerous projects
-      that have allowed me to hone my skills in HTML, CSS, JavaScript, and more.
-    </p>
-    <p>
-      When I'm not coding, you can find me exploring the outdoors, capturing moments
-      through photography, or experimenting with new recipes in the kitchen.
-    </p>
-    <p>
-      This website is a personal portfolio where I share my work, thoughts, and adventures.
-      Feel free to browse around and get to know more about me and my work.
-    </p>
-  </section>
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Contact info</h2>
+      <h5>Title description, Dec 7, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>CONTACT</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>DETAILS</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>About Me</h2>
+      <div class="fakeimg" style="height:100px;">Image</div>
+      <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
 </div>
+
+<div class="footer">
+  <h2>Footer</h2>
+</div>
+
 
 <footer>
   <div class="footer">
     <p>Contact email: <a href="mailto:hege@example.com">hege@example.com</a></p>
     <nav>
       <a href="./index">Home</a> |
-      <a href="./about">About</a> |
+      <a href="./about" class="current">About</a> |
       <a href="./resume">RESUME</a> |
       <a href="./page3">Page3</a> |
       <a href="./gallery">Gallery</a> |
